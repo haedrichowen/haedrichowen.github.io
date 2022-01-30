@@ -5,13 +5,37 @@
         body {
             color: rgb(15, 15, 15);  
             background-color: 	rgb(255, 254, 254);
-            font-family: verdana;
-            
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            block-size: min-content;
+            margin-left: auto;
+            margin-right: auto;
         }
         
         
         header {
             text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0pt;
+        }
+
+        li::before {
+            content: '> ';
+        }
+
+        a {
+            display: block;
+            transform-origin: center left;
+            text-decoration: none; /*Removes underline*/
+            color: rgb(15, 15, 15);
+        }
+
+        a:hover {
+            color: royalblue;
+            transition: transform 0.5s ease-in-out;
+            transform: scale(1.2);
         }
 
     </style>
@@ -25,24 +49,28 @@
         <header>
             <b><h1>Owen Haedrich</h1></b> <!--heading size 1, bold-->
         </header>
-        <main>
-            <section> <!--Get to know me-->
-                <div> <!--divs are block elements - they take up the width of the screen-->
-                    <article>
-                        <h2>Get to know me:</h2> <!--header size 6-->
-                    <big>
-                        <ul>
-                        <a href="CAD.html">    <li>>CAD and Prototype Design <br> </li> </a> <!--paragraph, navigation--->
-                        <a href="graphics.html">   <li>>Graphic Design <br> </li>    </a>
-                        <a href="simulations.html">   <li>>Computer Simulations and <br>   
-                        Mathemetical Modelling <br> </li>
-                        <a href="CSS.html"  ><li>CSS Demo</li> </a>
-                        </ul>
-                    </big>
-                    </article>
-                </div>  
-            </section>
-        </main>
+        <div style="text-align: center;">
+            <div style="display: inline-block; text-align: left;">
+                <main>
+                    <section> <!--Get to know me-->
+                        <div> <!--divs are block elements - they take up the width of the screen-->
+                            <article>
+                                <h2>Get to know me:</h2> <!--header size 6-->
+                            <big>
+                                <ul>
+                                <a href="CAD.html">    <li>CAD and Prototype Design <br> <br> </li> </a> <!--paragraph, navigation--->
+                                <a href="graphics.html">   <li>Graphic Design <br> <br> </li>    </a>
+                                <a href="simulations.html">   <li>Computer Simulations and <br>   
+                                Mathemetical Modelling <br> <br> </li>
+                                <a href="CSS.html"  ><li>CSS Demo</li> </a>
+                                </ul>
+                            </big>
+                            </article>
+                        </div>  
+                    </section>
+                </main>
+            </div>
+        </div>
         <footer>
             <hr/>
         </footer>
