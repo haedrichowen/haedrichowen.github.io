@@ -3,20 +3,19 @@
 <html> <!--root element of an HTML page--> 
     <style>
         body {
-            color: rgb(15, 15, 15);  
-            background-color: 	rgb(199, 153, 153);
-            background-color: #e5e5f7;
-            background-image: radial-gradient( ellipse farthest-corner at 10px 10px , rgb(241, 241, 248), rgb(241, 241, 248) 50%, rgb(235, 235, 253) 50%);
+            color: rgb(15, 15, 60);  
+            background-color: rgb(255, 255, 254);
             background-size: 10px 10px;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            block-size: min-content;
-            margin-left: auto;
-            margin-right: auto;
+            font-size: 110%;
+            margin: 0;
         }
         
         
         header {
             text-align: center;
+            padding-top: 2rem;
+            margin: 0;
         }
 
         ul {
@@ -24,16 +23,20 @@
             padding-left: 0pt;
         }
 
-        li::before {
-            content: '> ';
+        p {
+            font-weight:600 
+        }
+
+        p::before{
+           content:"˃     " ;  
         }
 
         a {
-            display: block;
+            display: inline-block;
             transform-origin: center left;
             text-decoration: none; /*Removes underline*/
             transition: transform 0.1s ease-out;
-            color: rgb(15, 15, 30);
+            color: rgb(15, 15, 60);
         }
 
         a:hover {
@@ -44,45 +47,56 @@
 
         footer {
             background-image: none;
-            background-color: rgba(15, 15, 20, 0.333);
+            background-color: rgba(15, 15, 60, 0.333);
             position: absolute;
             bottom: 0;
             width: 100%;
-            height: 2.5rem;            /* Footer height */
+            height: 2.5rem;
+        }
+
+        #card {
+            display: inline-block;
+            padding-top: 0.9rem;
+            padding-bottom: 1rem;
+            padding-left: 1.3rem;
+            padding-right: 1.5rem;
+            border-radius: 10px;
+            border-width: 120%;
+            background: rgb(198, 212, 230);
+            box-shadow: 0.15rem 0.15rem 0.1rem rgb(15, 15, 60);
         }
 
     </style>
     <head> <!--head defines information and initializes stuff-->
         <meta charset="UTF-8">
         <meta name="author" content="Owen Haedrich">
-        <meta name="viewport" content="width=device-width, initial-scale = 1.0">   
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">  <!--setting resolution--> 
         <title>Owen Haedrich</title>
     </head>
     <body> <!--body will get rendered-->
         <header>
             <b><h1>Owen Haedrich</h1></b> <!--heading size 1, bold-->
         </header>
-        <div style="text-align: center;">
-            <div>
-                <main>
-                    <section> <!--Get to know me-->
-                        <div> <!--divs are block elements - they take up the width of the screen-->
-                            <article>
-                                <h2>Get to know me:</h2> <!--header size 6-->
-                            <big>
-                                <ul style="display: inline-block; text-align: left;">
-                                <a href="CAD.html">    <li>CAD and Prototype Design <br> <br> </li> </a> <!--paragraph, navigation--->
-                                <a href="graphics.html">   <li>Graphic Design <br> <br> </li>    </a>
-                                <a href="simulations.html">   <li>Computer Simulations and <br>   
-                                Mathemetical Modelling <br> <br> </li>
-                                <a href="CSS.html"  ><li>CSS Demo</li> </a>
-                                </ul>
-                            </big>
-                            </article>
-                        </div>  
-                    </section>
-                </main>
-            </div>
+        <div>
+                    <div style="display: block; text-align: left; padding-left: 20vw; transform: translateY(10%);">
+                        <main>
+                            <section> <!--Get to know me-->
+                                <div> <!--divs are block elements - they take up the width of the screen-->
+                                    <article>
+                                        <h2>Get to know me:</h2> <!--header size 6-->
+                                    <big>
+                                        <ul style="padding-right: auto;">
+                                        <a href="CAD.html">    <p id="card">CAD and Prototype Design</p> </a> <br><!--paragraph, navigation--->
+                                        <a href="graphics.html">   <p id="card">Graphic Design</p> </a> <br>
+                                        <a href="simulations.html">   <p id="card">Computer Simulations and Mathemetical Modelling</p> </a> <br>
+                                        <a href="CSS.html"  ><p id="card">CSS Demo</p> </a> <br>
+                                        </ul>
+                                    </big>
+                                    </article>
+                                </div>  
+                            </section>
+                        </main>
+                    </div>
         </div>
         <footer>
         </footer>
