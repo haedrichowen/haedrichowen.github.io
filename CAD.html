@@ -1,12 +1,28 @@
+<!DOCTYPE html>
+<html>
 
-<section>
-Bladeless Fan
-</section>
+<head>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script> <!--https://modelviewer.dev/docs/index.html-->
+    <link rel="stylesheet" href="style.css"></link>
+</head>
 
-<section>
-Skateboard Wall Mount
-</section>
+    <body>
+        <section>
+            <h2>Bladeless Fan</h2>
+            <div style="height: 10rev; width: 10rev; display: flex;">
+                <model-viewer bounds="tight" src="bladeless.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1">
 
-<section>
-Toaster
-</section>
+                </model-viewer>
+            </div>
+        </section>
+
+        <section>
+            Skateboard Wall Mount
+        </section>
+
+        <section>
+            Toaster
+        </section>
+    </body>
+
+</html>
