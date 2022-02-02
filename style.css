@@ -62,6 +62,7 @@ footer {
 .cardWall {
     background: royalblue;
     margin-bottom: 1rem;
+    box-shadow: 0px 2px 1px hsla(0, 0%, 0%, 15%);
 }
 
 
@@ -137,14 +138,11 @@ footer {
     padding-right: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    margin-top: 1rem;
-    transform: translateY(-10rem);
 }
 
 .plateBG{
     background-color: darkgrey;
     display: inline-block;
-    padding-bottom: 2rem;
     margin-top: 1rem;
-    transform: translateY(10rem);
+    padding-bottom: .2rem;
 }
