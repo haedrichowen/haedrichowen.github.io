@@ -1,6 +1,6 @@
 body {
     color: hsl(240, 30%, 97.5%);  
-    background-color: rgb(220, 220, 220);
+    background-color: hsl(0, 0%, 92%);
     background-size: 10px 10px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 110%;
@@ -55,26 +55,17 @@ footer {
     padding-left: 1.3rem;
     padding-right: 1.5rem;
     border-width: 120%;
-    background: #4680ff;
+    background: hsl(221, 100%, 64%);
     transition: all 0.2s ease-in;
-    outline-style: solid;
-    outline-width: 1px; 
-    outline-color: rgb(27, 69, 158);
 }
 
 .cardWall {
     background: royalblue;
     margin-bottom: 1rem;
-    outline-style: solid;
-    outline-width: 1px; 
-    outline-color: rgb(27, 69, 158);
 }
 
 
 .dispCard{
-    outline-style: solid;
-    outline-width: 1px; 
-    outline-color: hsl(0, 73%, 44%);
     padding-top: 0rem;
     background: #db765d;
 }
@@ -85,9 +76,6 @@ footer {
     background: sienna;
     margin-left: 1rem;
     margin-right: 1rem;
-    outline-style: solid;
-    outline-width: 1px; 
-    outline-color: hsl(0, 73%, 44%);
 }
 
 .dispCard:hover{
@@ -126,6 +114,10 @@ footer {
     border-radius: 5px;
 }
 
+.round2{
+    border-radius: 10px;
+}
+
 .viewerSpace{
     height: 40rem; 
     width: 40rem; 
@@ -136,4 +128,23 @@ footer {
     width: 95%;
     display: inline-flex;
     background-color:  hsl(240, 4%, 95%);
+}
+
+.plate{
+    background-color: lightgrey;
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    transform: translateY(-10rem);
+}
+
+.plateBG{
+    background-color: darkgrey;
+    display: inline-block;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+    transform: translateY(10rem);
 }
