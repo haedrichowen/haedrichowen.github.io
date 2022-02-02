@@ -50,7 +50,7 @@ footer {
 .card {
     transform: translateY(-0.3rem);
     display: inline-block;
-    padding-top: 0.9rem;
+    padding-top: 0rem;
     padding-bottom: 1rem;
     padding-left: 1.3rem;
     padding-right: 1.5rem;
