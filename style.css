@@ -57,7 +57,6 @@ footer {
     border-width: 120%;
     background: #4680ff;
     transition: all 0.2s ease-in;
-    outline: 1px black;
 }
 
 .cardWall {
@@ -66,6 +65,7 @@ footer {
 }
 
 .dispCard{
+    padding-top: 0rem;
     background: #db765d;
 }
 
