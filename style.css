@@ -57,14 +57,24 @@ footer {
     border-width: 120%;
     background: #4680ff;
     transition: all 0.2s ease-in;
+    outline-style: solid;
+    outline-width: 1px; 
+    outline-color: rgb(27, 69, 158);
 }
 
 .cardWall {
     background: royalblue;
     margin-bottom: 1rem;
+    outline-style: solid;
+    outline-width: 1px; 
+    outline-color: rgb(27, 69, 158);
 }
 
+
 .dispCard{
+    outline-style: solid;
+    outline-width: 1px; 
+    outline-color: hsl(0, 73%, 44%);
     padding-top: 0rem;
     background: #db765d;
 }
@@ -75,6 +85,9 @@ footer {
     background: sienna;
     margin-left: 1rem;
     margin-right: 1rem;
+    outline-style: solid;
+    outline-width: 1px; 
+    outline-color: hsl(0, 73%, 44%);
 }
 
 .dispCard:hover{
