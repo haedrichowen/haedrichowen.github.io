@@ -31,7 +31,6 @@ a {
     text-decoration: none; /*Removes underline*/
     transition: transform 0.1s ease-out;
     color: hsl(240, 60%, 95%); 
-    margin-bottom: 1rem;
 }
 
 a:hover {
@@ -55,15 +54,14 @@ footer {
     padding-bottom: 1rem;
     padding-left: 1.3rem;
     padding-right: 1.5rem;
-    border-radius: 10px;
     border-width: 120%;
     background: #4680ff;
     transition: all 0.2s ease-in;
 }
 
 .cardWall {
-    border-radius: 10px;
     background: royalblue;
+    margin-bottom: 1rem;
 }
 
 .dispCard{
@@ -105,4 +103,24 @@ footer {
     display: inline-block; 
     height: 2rem; 
     transform: translateY(2.25rem);
+}
+
+.center{
+    text-align: center;
+}
+
+.round{
+    border-radius: 10px;
+}
+
+.viewerSpace{
+    height: 40rem; 
+    width: 40rem; 
+}
+
+.viewer{
+    height: 95%;
+    width: 95%;
+    display: inline-flex;
+    background-color: hsl(240, 60%, 95%); 
 }

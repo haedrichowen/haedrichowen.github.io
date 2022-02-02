@@ -6,28 +6,36 @@
     <link rel="stylesheet" href="style.css"></link>
 </head>
 
-    <body>
-        <section class="dispCardBG">
-            <div class="card dispCard">
-                <h2>Bladeless Fan</h2>
-                <div style="height: 800rev; width: 800rev; display: flex;">
-                    <model-viewer bounds="tight" src="bladeless.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1">
-                    </model-viewer>
-                </div>
-            </div>
-        </section>
+<header>
+    <b><div class="cardWall titleCardBG round"><h1 class="card titleCard round">Owen Haedrich</h1></div></b> <!--heading size 1, bold-->
+</header>
 
-        <section class="dispCardBG">
-            <div class="card dispCard">
-                <h2>Skateboard Wall Mount</h2>
+<body class="center">
+    <div class="cardWall dispCardBG round">
+        <div class="card dispCard round">
+            <h2>Bladeless Fan</h2>
+            <div class="viewerSpace center">
+                <model-viewer class="round viewer" bounds="tight" src="bladeless.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1">
+                </model-viewer>
             </div>
-        </section>
+        </div>
+    </div>
 
-        <section class="dispCardBG">
-            <div class="card dispCard">
-                <h2> Attractive Toaster</h2>
-            </div>
-        </section>
-    </body>
+    <br>
+
+    <div class="cardWall dispCardBG round">
+        <div class="card dispCard round">
+            <h2>Skateboard Wall Mount</h2>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="cardWall dispCardBG round">
+        <div class="card dispCard round">
+            <h2> Attractive Toaster</h2>
+        </div>
+    </div>
+</body>
 
 </html>
