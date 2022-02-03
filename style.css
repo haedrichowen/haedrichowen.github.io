@@ -42,11 +42,6 @@ a:hover {
     color: #e79b69;
 }
 
-p {
-    text-align: left;
-    font-weight: 500;
-}
-
 footer {
     background-image: none;
     background-color: rgba(117, 117, 121, 0.5);
@@ -157,7 +152,7 @@ footer {
 
 .plateBG{
     width: max-content;
-    background-color: darkgrey;
+    background-color: hsl(0, 0%, 66%);
     display: inline-block;
     margin-top: 1rem;
     padding-bottom: .2rem;
@@ -172,4 +167,15 @@ footer {
 
 .margin{
     margin-top: 0.5rem;
+}
+
+p {
+    text-align: left;
+    font-weight: 550;
+}
+
+.pPlate {
+    margin: 0rem 1rem 0.5rem 1rem;
+    padding: 0.1rem 1rem 1rem 1rem;
+    background-color: hsl(6, 2%, 66%);
 }
