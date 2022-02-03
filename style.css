@@ -42,6 +42,11 @@ a:hover {
     color: #e79b69;
 }
 
+p {
+    text-align: left;
+    font-weight: 500;
+}
+
 footer {
     background-image: none;
     background-color: rgba(117, 117, 121, 0.5);
