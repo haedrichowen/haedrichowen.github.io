@@ -1,18 +1,22 @@
 body {
     color: hsl(240, 30%, 97.5%);  
     background-color: hsl(0, 0%, 92%);
-    background-size: 10px 10px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     font-size: 110%;
-    margin: 0;
+    margin: 0 auto;
 }
 
 
 header {
     text-align: center;
     padding-top: 2rem;
-    padding-bottom: 2rem;
-    margin: 0;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 1.7rem;
+    font-weight: 700;
 }
 
 ul {
@@ -25,6 +29,7 @@ ul {
 }
 
 a {
+    font-size: 1.5rem;
     font-weight:700;
     display: inline-block;
     transform-origin: center left;
@@ -54,7 +59,6 @@ footer {
     padding-bottom: 1rem;
     padding-left: 1.3rem;
     padding-right: 1.5rem;
-    border-width: 120%;
     background: hsl(221, 100%, 64%);
     transition: all 0.2s ease-in;
 }
@@ -67,7 +71,6 @@ footer {
 
 
 .dispCard{
-    padding-top: 0rem;
     background: #db765d;
 }
 
@@ -75,8 +78,8 @@ footer {
     display: inline-block; 
     text-align: left; 
     background: sienna;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1rem auto;
+    margin-right: 1rem auto;
 }
 
 .dispCard:hover{
@@ -138,11 +141,30 @@ footer {
     padding-right: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    transition: all 0.15 ease-in;
+}
+
+.plate:hover{
+    transform-origin: top center;
+    transform: scale(100.1%);
+    transition: all 0.2s ease-out;
 }
 
 .plateBG{
+    width: max-content;
     background-color: darkgrey;
     display: inline-block;
     margin-top: 1rem;
     padding-bottom: .2rem;
+    transition: all 0.15 ease-in;
+}
+
+.plateBG:hover{
+    transform-origin: top center;
+    transform: scale(100.1%);
+    transition: all 0.2s ease-out;
+}
+
+.margin{
+    margin-top: 0.5rem;
 }
