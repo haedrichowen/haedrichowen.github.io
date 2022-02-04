@@ -3,25 +3,24 @@ body {
     background-color: hsl(0, 0%, 92%);
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-size: 110%;
-    margin: 0 auto;
 }
 
 
 header {
     text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    margin: 0 auto;
+    border-top: 2rem;
+    border-bottom: 1rem;
 }
 
 h2{
     font-size: 1.7rem;
     font-weight: 700;
+    margin: 1rem;
 }
 
 ul {
     list-style: none;
-    padding-left: 0pt;
+    margin: 0.5rem;
 }
 
 .link::before{
@@ -36,10 +35,11 @@ a {
     text-decoration: none; /*Removes underline*/
     transition: transform 0.1s ease-out;
     color: hsl(240, 60%, 95%); 
+    margin: 0.5rem;
 }
 
 a:hover {
-    color: #e79b69;
+    color: hsl(46, 66%, 66%);
 }
 
 footer {
@@ -55,10 +55,10 @@ footer {
 .card {
     transform: translateY(-0.3rem);
     display: inline-block;
-    padding-top: 0.9rem;
-    padding-bottom: 1rem;
-    padding-left: 1.3rem;
-    padding-right: 1.5rem;
+    border-top: 0.9rem;
+    border-bottom: 1rem;
+    border-left: 1.3rem;
+    border-right: 1.5rem;
     background: hsl(221, 63%, 62%);
     transition: all 0.2s ease-in;
 }
@@ -71,20 +71,24 @@ footer {
 
 
 .dispCard{
+    width: 100%;
     background: hsl(10, 65%, 65%);
 }
 
 .dispCardBG{
     display: inline-block; 
     text-align: left; 
-    background: hsl(19, 54%, 54%);
-    margin-left: 1rem auto;
-    margin-right: 1rem auto;
+    background: hsl(12, 54%, 54%);
+    width: 90%;
 }
 
 .dispCard:hover{
     transform: translateY(-0.6rem); 
     transition: all 0.15s ease-out;
+}
+
+.interCard{
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 .interCard:hover{
@@ -97,21 +101,26 @@ footer {
 }
 
 .titleCard{
-    transform: translateY(-4.75rem);
-}
-
-.titleCard:hover{
-    transform: translateY(-4.90rem);
+    transform: translateY(-2.5rem);
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 .titleCardBG{
+    transform: translateY(2.5rem);
     display: inline-block; 
     height: 2rem; 
-    transform: translateY(2.25rem);
+    padding-bottom: 1rem;
+}
+
+.titleCard:hover{
+    transform: translateY(-2.65rem);
 }
 
 .center{
     text-align: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .round{
@@ -122,26 +131,16 @@ footer {
     border-radius: 10px;
 }
 
-.viewerSpace{
-    height: 40rem; 
-    width: 40rem; 
-}
-
-.viewer{
-    height: 95%;
-    width: 95%;
-    display: inline-flex;
-    background-color:  hsl(240, 4%, 95%);
-}
-
 .plate{
+    width: 100%;
     background-color: lightgrey;
     display: inline-block;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
+    border-left: 1rem;
+    border-right: 1rem;
+    border-top: 1rem;
+    border-bottom: 1rem;
+    transition: all 0.15s ease-in;
     padding-bottom: 1rem;
-    transition: all 0.15 ease-in;
 }
 
 .plate:hover{
@@ -151,12 +150,12 @@ footer {
 }
 
 .plateBG{
-    width: max-content;
+    width: 70%;
     background-color: hsl(0, 0%, 66%);
     display: inline-block;
     margin-top: 1rem;
-    padding-bottom: .2rem;
-    transition: all 0.15 ease-in;
+    border-bottom: .2rem;
+    transition: all 0.15s ease-in;
 }
 
 .plateBG:hover{
@@ -169,15 +168,36 @@ footer {
     margin-top: 0.5rem;
 }
 
+.viewerSpace{
+    width: 95%;
+}
+
+.viewerSpace:after {
+    content: "";
+    display: block;
+    border-bottom: 100%;
+  }
+
+.viewer{
+    height: 51vw;
+    width: 51vw;
+    display: inline-flex;
+    background-color:  hsl(240, 4%, 95%);
+}
+
 p {
-    padding-top: 1rem;
+    margin: 0 0 0 0;
+    border-top: 1rem;
     text-align: justify;
     font-weight: 550;
+    border: 0.25rem;
 }
 
 .pPlate {
-    margin: 0rem 1rem 0.5rem 1rem;
-    padding: 0rem 1rem 1rem 1rem;
+    display: inline-block;
+    margin: 1rem 0rem 1rem 0rem;
     background-color: hsl(250, 2%, 26%);
     box-shadow: 0px 2px 0px hsla(0, 0%, 0%, 75%);
+    padding: 1vw;
+    width: 49vw;
 }
