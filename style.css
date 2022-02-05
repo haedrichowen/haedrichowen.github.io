@@ -15,7 +15,9 @@ header {
 h2{
     font-size: 1.7rem;
     font-weight: 700;
-    margin: 1rem;
+    margin: 2vw;
+    padding-top: 1rem;
+    padding-left: 1vw;
 }
 
 ul {
@@ -59,7 +61,7 @@ footer {
     border-bottom: 1rem;
     border-left: 1.3rem;
     border-right: 1.5rem;
-    background: hsl(221, 63%, 62%);
+    background: hsl(221, 64%, 61%);
     transition: all 0.2s ease-in;
 }
 
@@ -72,13 +74,13 @@ footer {
 
 .dispCard{
     width: 100%;
-    background: hsl(10, 65%, 65%);
+    background: hsl(10, 62%, 68%);
 }
 
 .dispCardBG{
     display: inline-block; 
     text-align: left; 
-    background: hsl(12, 54%, 54%);
+    background: hsl(12, 42%, 58%);
     width: 90%;
 }
 
@@ -179,25 +181,27 @@ footer {
   }
 
 .viewer{
-    height: 51vw;
-    width: 51vw;
+    height: 56vw;
+    width: 56vw;
     display: inline-flex;
     background-color:  hsl(240, 4%, 95%);
+
 }
 
 p {
     margin: 0 0 0 0;
     border-top: 1rem;
-    text-align: justify;
+    text-align: left;
     font-weight: 550;
     border: 0.25rem;
+    padding: 0.5rem;
 }
 
 .pPlate {
     display: inline-block;
     margin: 1rem 0rem 1rem 0rem;
-    background-color: hsl(250, 2%, 26%);
-    box-shadow: 0px 2px 0px hsla(0, 0%, 0%, 75%);
+    background-color: hsl(221, 11%, 34%);
+    box-shadow: 0px 2px 0px hsla(0, 0%, 30%, 75%);
     padding: 1vw;
-    width: 49vw;
+    width: 54vw;
 }
