@@ -172,7 +172,7 @@ footer {
 
 .plateBG:hover{
     transform-origin: top center;
-    transform: scale(100.1%);
+    transform: scale(100.01%);
     transition: all 0.2s ease-out;
 }
 
