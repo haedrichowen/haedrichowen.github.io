@@ -100,7 +100,7 @@ footer {
 }
 
 .interCard:hover{
-    transform: translateY(-0.7rem);
+    transform: translateY(-0.5rem);
     transition: all 0.1s ease-out;
 }
 
