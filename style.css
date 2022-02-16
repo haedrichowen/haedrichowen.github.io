@@ -1,7 +1,9 @@
 body {
     color: hsl(240, 30%, 97.5%);  
     background-color: hsl(0, 0%, 92%);
-    font-family: 'Atkinson Hyperlegible', sans-serif;
+    /* font-family: 'Atkinson Hyperlegible', sans-serif; */
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
     font-size: 110%;
 }
 
@@ -12,9 +14,13 @@ header {
     border-bottom: 1rem;
 }
 
-h2{
+h1 {
+    font-weight: 300;
+}
+
+h2  {
+    font-weight: 300;
     font-size: 1.7rem;
-    font-weight: 700;
     margin: 2vw;
     padding-top: 1rem;
     padding-left: 1vw;
@@ -31,7 +37,7 @@ ul {
 
 a {
     font-size: 1.5rem;
-    font-weight:700;
+    font-weight: 100;
     display: inline-block;
     transform-origin: center left;
     text-decoration: none; /*Removes underline*/
