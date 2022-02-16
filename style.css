@@ -33,6 +33,7 @@ ul {
 
 .link::before{
    content:"˃     " ;  
+   font-weight: 1000;
 }
 
 a {
