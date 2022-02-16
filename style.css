@@ -74,13 +74,13 @@ footer {
 
 .dispCard{
     width: 100%;
-    background: hsl(10, 62%, 68%);
+    background: hsl(10, 2%, 58%);
 }
 
 .dispCardBG{
     display: inline-block; 
     text-align: left; 
-    background: hsl(12, 42%, 58%);
+    background: hsl(12, 2%, 28%);
     width: 90%;
 }
 
