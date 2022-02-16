@@ -67,7 +67,7 @@ footer {
     border-bottom: 1rem;
     border-left: 1.3rem;
     border-right: 1.5rem;
-    background: hsl(221, 14%, 41%);
+    background: hsl(221, 14%, 46%);
     transition: all 0.2s ease-in;
 }
 
@@ -80,7 +80,7 @@ footer {
 
 .dispCard{
     width: 100%;
-    background: hsl(240, 4%, 58%);
+    background: hsl(240, 7%, 63%);
 }
 
 .dispCardBG{
