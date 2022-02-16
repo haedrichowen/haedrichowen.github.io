@@ -109,7 +109,7 @@ footer {
 }
 
 .titleCard{
-    transform: translateY(-2.5rem);
+    transform: translateY(-2.65rem);
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
@@ -121,7 +121,7 @@ footer {
 }
 
 .titleCard:hover{
-    transform: translateY(-2.65rem);
+    transform: translateY(-2.75rem);
 }
 
 .center{
