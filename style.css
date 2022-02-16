@@ -61,12 +61,12 @@ footer {
     border-bottom: 1rem;
     border-left: 1.3rem;
     border-right: 1.5rem;
-    background: hsl(221, 14%, 31%);
+    background: hsl(221, 14%, 41%);
     transition: all 0.2s ease-in;
 }
 
 .cardWall {
-    background: hsl(225, 57%, 57%);
+    background: hsl(225, 27%, 27%);
     margin-bottom: 1rem;
     box-shadow: 0px 2px 1px hsla(0, 0%, 0%, 15%);
 }
@@ -74,13 +74,13 @@ footer {
 
 .dispCard{
     width: 100%;
-    background: hsl(10, 2%, 58%);
+    background: hsl(240, 4%, 58%);
 }
 
 .dispCardBG{
     display: inline-block; 
     text-align: left; 
-    background: hsl(12, 2%, 28%);
+    background: hsl(240, 12%, 28%);
     width: 90%;
 }
 
@@ -126,11 +126,11 @@ footer {
 }
 
 .round{
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .round2{
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .plate{
@@ -153,7 +153,7 @@ footer {
 
 .plateBG{
     width: 70%;
-    background-color: hsl(0, 0%, 66%);
+    background-color: hsl(0, 12%, 66%);
     display: inline-block;
     margin-top: 1rem;
     border-bottom: .2rem;
